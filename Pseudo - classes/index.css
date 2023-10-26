@@ -1,0 +1,48 @@
+.parent{
+    display: flex;
+    padding: 50px;
+}
+.child{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(176, 230, 232);
+    margin-right: 20px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: 0.8s;
+}
+
+.child:nth-child(2){
+    background-color: cornflowerblue;
+}
+.child:nth-child(3){
+    background-color: aquamarine;
+}
+.child i{
+    background-color: rgb(243, 207, 124);
+    color: rgb(7, 7, 7);
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -5px;
+    right: -2px;
+}
+.child:hover{
+    background-color: rgb(116, 237, 126);
+}
+.img{
+    width: 24px;
+    height: 24px;
+    transition: 0.5s;
+}
+.child:hover img{
+    filter: invert(1);
+}

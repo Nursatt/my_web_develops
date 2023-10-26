@@ -1,0 +1,47 @@
+.nav, .nav-left, .nav-right{
+    display: flex;
+    align-items: center;
+}
+.nav{
+    background-color: #0a472e;
+    padding: 20px;
+    color: #fff;
+    font-size: 14px;
+}
+.nav i{
+    color: #fff;
+    transition: .4s;
+}
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("../../fonts/Roboto/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family: "Roboto Light";
+    src: url("../../fonts/Roboto/Roboto-Light.ttf");
+}
+.nav a{
+    color: #fff;
+    margin-right: 20px;
+    transition: .4s;
+    font-family: "Roboto Bold";
+}
+.nav-left i{
+    margin-right: 15px;
+}
+.nav-left p{
+    font-family: "Roboto Light";
+}
+.nav-left{
+    margin-right: 50px;
+}
+.nav-right{
+    border-left: 1px solid #e1e1e1;
+    padding-left: 50px;
+}   
+.nav-right a:hover{
+    color: #bac34e;
+}
+.nav-right a:hover i{
+    color: #bac34e;
+}

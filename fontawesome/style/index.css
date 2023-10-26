@@ -1,0 +1,8 @@
+.fa-solid.fa-user{
+    font-size: 50px;
+    color: teal;
+    transition: .5s;
+}
+.fa-solid.fa-user:hover{
+    color: blueviolet;
+}

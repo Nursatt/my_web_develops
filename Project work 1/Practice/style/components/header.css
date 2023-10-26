@@ -1,0 +1,27 @@
+.header{
+    padding: 30px 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.header_item p{
+    font-size: 14px;
+    color: #000;
+}
+.header_item{
+    display: flex;
+}
+.header_item a{
+    margin-left: 20px;
+    font-size: 12px;
+    color: #555;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.header_item a:hover{
+    color: #bac34e;
+}
+
+.container{
+    background-color: #fff;
+    padding: 0 5%;
+}

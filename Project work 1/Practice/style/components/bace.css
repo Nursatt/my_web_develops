@@ -1,0 +1,13 @@
+
+body{
+    background-color:  #fcf3ea;
+    background-image: url("../../img/home2_bgbody_top.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: top; */
+    background-position: left right;
+    padding: 0 5%;
+}
+a{
+    text-decoration: none;
+}
